@@ -59,11 +59,21 @@ header nav ul li a {
     margin: 30px;
     border-right: solid 3px var(--primary-color);
     text-align: right;
+    font-size: 30px;
 }
 .contact-items {
     flex:3;
     padding: 10px;
     margin: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.contact-items a {
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 15px;
+    font-size: 20px;
 }
 .hero {
     background-image: url(../images/20190622_123839.jpg);
@@ -110,4 +120,25 @@ header nav ul li a {
     flex: 3;
     padding: 10px;
     margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid var(--secondary-color);
+}
+.grid-item {
+    border: 2px solid var(--secondary-color);
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items:flex-end;
+}
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+.item1 h2 {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    border: 2px solid var(--primary-color)
 }
