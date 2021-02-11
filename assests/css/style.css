@@ -145,11 +145,11 @@ header nav ul li a {
 .item1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    background-image: url(../images/run-buddy.png);
+    background-image: url(../images/bored.jpeg);
     background-size: cover;
     background-position: center;
 }
-.item1 a, .item2 a, .item3 a {
+.item1 a, .item2 a, .item3 a, .item4 a, .item5 a {
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
     padding: 10px;
@@ -158,12 +158,22 @@ header nav ul li a {
     opacity: 1;
 }
 .item2 {
-    background-image: url(../images/horiseon.png);
+    background-image: url(../images/weather2.png);
     background-size: cover;
     background-position: center;
 }
 .item3 {
-    background-image: url(../images/future-work.jpg);
+    background-image: url(../images/workday1.png);
+    background-size: cover;
+    background-position: center;
+}
+.item4 {
+    background-image: url(../images/Start.png);
+    background-size: cover;
+    background-position: center;
+}
+.item5 {
+    background-image: url(../images/password-generator.png);
     background-size: cover;
     background-position: center;
 }
